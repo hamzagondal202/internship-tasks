@@ -1,0 +1,69 @@
+body {
+  background-color: rgb(61, 202, 181);
+}
+.main-box {
+  margin-left: 25vw;
+  margin-right: 10vw;
+}
+#row-1 {
+  display: grid;
+  grid-template-columns: 90% auto;
+  font-size: 3vw;
+  margin-right: 5vw;
+}
+#search {
+  height: 6vw;
+  resize: none;
+  background-color: rgb(61, 202, 181);
+  border: none;
+  font-size: 2vw;
+  color: rgb(129, 255, 240);
+  border-bottom: 0.2vw solid;
+  border-color: white;
+  text-transform: uppercase;
+  outline: none;
+}
+::placeholder {
+  color: rgb(129, 255, 240);
+}
+#GO {
+  background-color: rgb(61, 202, 181);
+  border: none;
+  color: rgb(129, 255, 240);
+  font-size: 2vw;
+  margin-left: 3vw;
+}
+#row-2 {
+  margin-top: 10vw;
+  border-bottom: 0.2vw solid;
+  border-color: white;
+  height: 3vw;
+  font-size: 3vw;
+  line-height: 3vw;
+  color: rgb(129, 255, 240);
+}
+#row-2 #cloud {
+  float: right;
+  font-size: 2vw;
+  line-height: 7vw;
+}
+#row-3 {
+  margin-top: 8vw;
+  text-align: right;
+  font-size: 2vw;
+  color: rgb(129, 255, 240);
+}
+#row-3 #icon {
+  float: left;
+  margin-left: 2vw;
+  height: 10vw;
+  margin-top: -4vw;
+}
+#row-4 {
+  margin-top: 1.5vw;
+  font-size: 3vw;
+  color: rgb(129, 255, 240);
+}
+#row-4 #fah {
+  color: white;
+}
