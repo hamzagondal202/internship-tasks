@@ -1,0 +1,184 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-div {
+  text-align: center;
+  display: grid;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  border: solid black;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.main-div .heading {
+  font-size: 2.5vw;
+  font-weight: bolder;
+  margin-bottom: 1vw;
+  margin-top: 3vw;
+}
+.main-div .quote {
+  font-size: 1.4vw;
+  font-weight: lighter;
+  line-height: 2vw;
+  margin-bottom: 1vw;
+}
+
+.main-div .searchbar {
+  height: 4vw;
+  width: 35vw;
+  font-size: 1.5vw;
+  color: red;
+  border-color: red;
+  border-start-start-radius: 2vw;
+  border-end-start-radius: 2vw;
+  outline: none;
+  padding-left: 1vw;
+}
+.searchbar::placeholder {
+  color: red;
+}
+
+.main-div .searchbtn {
+  height: 4vw;
+  width: 3.5vw;
+  font-size: 1.5vw;
+  color: white;
+  background-color: red;
+  border-start-end-radius: 2vw;
+  border-end-end-radius: 2vw;
+  border-color: red;
+}
+
+.main-div .resulttag {
+  font-size: 2.5vw;
+  font-weight: bolder;
+  margin-top: 5vw;
+}
+
+#loading {
+  color: red;
+  font-size: 2vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+.notFound {
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  color: red;
+  font-size: 1.5vw;
+}
+
+.main-card {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(10vw, 1fr));
+  grid-gap: 2vw;
+  margin: 10vw;
+  font-size: 1.2vw;
+}
+
+.meal-details {
+  background-color: white;
+  border-radius: 2vw;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.meal-pic img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1vw;
+}
+
+.RecipBtn {
+  color: white;
+  background-color: red;
+  border: red;
+  height: 3vw;
+  width: 12vw;
+  margin-top: 1vw;
+  border-radius: 2vw;
+  margin-bottom: 2vw;
+  font-size: 1.2vw;
+}
+
+.recipe-cont {
+  font-weight: lighter;
+  color: rgb(212, 209, 209);
+}
+
+/* //
+//------------------------------------------------------------------
+// */
+
+.overlay {
+  position: fixed;
+  top: 5%;
+  left: 25%;
+  width: 50vw;
+  height: fit-content;
+  max-height: 40vw;
+  background-color: red;
+  color: white;
+  padding: 2vw;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  overflow: scroll;
+}
+
+.overlay::-webkit-scrollbar {
+  width: 0.8vw; /* Width of the scrollbar */
+}
+
+.overlay::-webkit-scrollbar-thumb {
+  background: white; /* Thumb color */
+  border-radius: 1vw;
+}
+
+.overlay::-webkit-scrollbar-thumb:hover {
+  background: grey; /* Thumb color on hover */
+}
+
+.close-button {
+  position: fixed;
+  top: 7%;
+  right: 27vw;
+  border: none;
+  border-radius: 2vw;
+  cursor: pointer;
+  background-color: white;
+  inline-size: 1.5vw;
+  height: 1.5vw;
+  font-size: 1.5vw;
+}
+
+.categ {
+  margin: 1.2vw;
+}
+
+#categ {
+  background-color: white;
+  color: red;
+  width: fit-content;
+  padding: 0.2vw;
+  font-weight: bolder;
+}
+.header-recep {
+  margin-bottom: 1.2vw;
+}
+#image {
+  height: 5vw;
+  border-radius: 2.5vw;
+  margin-top: 1.7vw;
+  margin-bottom: 1vw;
+}
+
+#vidlink {
+  color: white;
+  font-size: 1.3vw;
+}
