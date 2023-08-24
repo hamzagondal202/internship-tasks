@@ -1,3 +1,5 @@
+import React from "react";
+
 const ShowRecipe = ({ recipee, onClose }) => {
   const { name, recipe, pic, categ, video } = recipee;
   return (

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Modal, Button } from "react-bootstrap";
+import { Modal } from "react-bootstrap";
 
 const Table = ({
   array,
@@ -50,12 +50,12 @@ const Table = ({
       {/* Render modal component */}
       <Modal show={showModal} onHide={() => setShowModal(false)}>
         <Modal.Header closeButton>
-          <Modal.Title>{modalContent?.title}</Modal.Title>
+          <Modal.Title>{modalContent && modalContent.title}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <p>{modalContent?.value1}</p>
-          <p>{modalContent?.value2}</p>
-          <p>{modalContent?.value3}</p>
+          <p>{modalContent && modalContent.value1}</p>
+          <p>{modalContent && modalContent.value2}</p>
+          <p>{modalContent && modalContent.value3}</p>
         </Modal.Body>
       </Modal>
 

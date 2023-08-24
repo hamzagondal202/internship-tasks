@@ -1,17 +1,18 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 // -------------------------------------Uncomment for Recipee App ---------------------------
 //
 //
-// import React from "react";
-// import Findmeal from "./components/Recipe App/findmeal";
-// function App() {
-//   return (
-//     <>
-//       <Findmeal />
-//     </>
-//   );
-// }
+import React from "react";
+import Findmeal from "./components/Recipe App/findmeal";
+function App() {
+  return (
+    <>
+      <Findmeal />
+    </>
+  );
+}
 
-// export default App;
+export default App;
 
 //
 //
@@ -41,31 +42,3 @@
 //
 //
 //
-//-----------------------------------------------UseRedux---------------------------------------------------------------
-//
-//
-//
-import React from "react";
-import "./App.css";
-const App = () => {
-  return (
-    <>
-      <div className="container">
-        <h1>Increment/Decrement Counter</h1>
-        <h4>Using React and Redux</h4>
-
-        <div className="quantity">
-          <a className="quantity__minus" title="Decrement">
-            <span>-</span>
-          </a>
-          <input name="quantity" type="number" className="quantity__input" />
-          <a className="quantity__plus" title="Increment">
-            <span>+</span>
-          </a>
-        </div>
-      </div>
-    </>
-  );
-};
-
-export default App;
